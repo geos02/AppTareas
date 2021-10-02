@@ -1,0 +1,67 @@
+body {
+    background-color: #20B1AA;
+}
+
+p {
+    margin: 0;
+}
+
+.default {
+    margin: 15px 0;
+}
+
+.contenedor {
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.agregar-tareas {
+    display: flex;
+    justify-content: center;
+}
+
+.agregar-tareas input {
+    padding: 10px;
+    width:80%;
+}
+
+.btn {
+    color: white;
+    border: none;
+    width: 10%;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color .3s ease;
+}
+
+.btn-agregar {
+    background-color: #007F81;
+    
+}
+
+.btn-agregar:hover {
+    background-color: #00aaac;
+}
+
+.btn-borrar {
+    background-color: red;
+}
+
+.btn-borrar:hover {
+    background-color: #fe4f4f ;
+}
+
+.nueva-tarea {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.nueva-tarea p {
+    width: 80%;
+    padding: 10px;
+    background-color: #e1e1e1;
+}
